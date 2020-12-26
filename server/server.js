@@ -13,7 +13,6 @@ const apiLimiter = rateLimit({
 app.use("/api/", apiLimiter);
 app.use(helmet());
 app.use(express.static("public"));
-//body-parser defaults to a body size limit of 100kb
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(noFavicon());

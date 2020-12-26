@@ -1,0 +1,28 @@
+section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding-top: 1%;
+
+  .balance {
+    background-color: white;
+    display: flex;
+    color: black;
+    width: 49%;
+    height: 100%;
+    .amount {
+      font-family: PermanentMaker-Regular;
+    }
+  }
+
+  .recent-transactions {
+    background-color: white;
+    color: black;
+    width: 49%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 2%;
+  }
+}

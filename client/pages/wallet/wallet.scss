@@ -1,0 +1,15 @@
+h2 {
+  color: blue;
+  font-family: Alice-Regular;
+  text-align: center;
+}
+.wallet-container {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+  background-color: rgb(214, 222, 226);
+  width: 90vw;
+  .main-box {
+    width: 100%;
+  }
+}

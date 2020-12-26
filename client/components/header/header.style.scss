@@ -1,0 +1,24 @@
+.header {
+  //   position: absolute;
+  display: flex;
+  top: 0;
+  color: white;
+  align-items: center;
+  height: 15vh;
+  justify-content: space-around;
+  &-home {
+    height: 0;
+    color: blue;
+  }
+
+  .github-icon {
+    height: 3rem;
+    width: 3rem;
+    color: white;
+  }
+  .img {
+    height: 4rem;
+    width: 4rem;
+    background-position: center;
+  }
+}

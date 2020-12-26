@@ -1,0 +1,21 @@
+html {
+  font-size: 62.5%;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  // filter: contrast(200%);
+}
+body {
+  // background-color: #000000;
+  // background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+  background-image: url("/images/hac.jpg");
+  background-size: cover;
+
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: Alice-Regular;
+  word-wrap: break-word;
+}

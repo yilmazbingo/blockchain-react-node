@@ -1,0 +1,5 @@
+node_modules
+notes
+.DS_STORE
+.env
+.vscode

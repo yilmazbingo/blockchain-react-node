@@ -1,0 +1,16 @@
+section {
+  background-color: white;
+  form {
+    width: 100%;
+    margin-right: 2%;
+    div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      span {
+        color: black;
+        width: 12%;
+      }
+    }
+  }
+}

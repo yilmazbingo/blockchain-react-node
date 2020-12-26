@@ -1,0 +1,5 @@
+export const walletComponentActionsTypes = {
+  DISPLAY_SEND: " DISPLAY_SEND",
+  DISPLAY_OVERVIEW: " DISPLAY_OVERVIEW",
+  DISPLAY_RECEIVE: "DISPLAY_RECEIVE",
+};

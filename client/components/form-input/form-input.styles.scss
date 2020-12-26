@@ -1,0 +1,58 @@
+//sass variable
+$sub-color: black;
+$main-color: rgb(23, 124, 23);
+
+.group {
+  position: relative;
+  flex-grow: 1;
+
+  margin: auto auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+
+  p {
+    color: red;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+  .form-input {
+    // flex-grow: 1;
+    background-color: gray;
+    // color: $sub-color;
+    font-size: 2rem;
+    padding: 0 0 0 0.1rem;
+    display: block;
+    border: none;
+    border-bottom: 0.1rem solid $sub-color;
+    margin: 0 0;
+
+    //outlines are similar to border
+    //Outlines never take up space, as they are drawn outside of an element's content.
+
+    &:focus {
+      outline: none;
+    }
+
+    //~ Sign:
+    //It is general sibling combinator and similar to Adjacent sibling combinator. the difference is that the second selector does NOT have to immediately follow the first one means It will select all elements that is preceded by the former selector.
+    //whenever browsser focus on form input
+  }
+
+  input[type="password"] {
+    letter-spacing: 0.5em;
+  }
+
+  //the moment browser focused on the input, we get transition.
+  .form-input-label {
+    color: $sub-color;
+    font-size: 1.6rem;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5.5%;
+    top: 2.6rem;
+    transition: 300ms ease all;
+  }
+}
